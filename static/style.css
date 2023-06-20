@@ -1,0 +1,20 @@
+p {
+    display: block;
+    line-height: 1.3em;
+    margin: 0;
+    overflow: hidden;
+    /* white-space: nowrap; */
+    margin: 0;
+    letter-spacing: 0.05em;
+    animation: typing 0.5s steps(30, end);
+    /* font-size: calc(2vw + 7px); */
+    font-size: min(20px, calc(1.5vw + 7px));
+  }
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
